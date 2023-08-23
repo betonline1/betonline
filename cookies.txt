@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+aviatorpredict.com	TRUE	/	FALSE	1999999999	PHPSESSID	1j3ce8ga9soecrhh48cl62v4i7
+aviatorpredict.com	TRUE	/	FALSE	1999999999	_csrf-frontend	4534e97868036b2cefdbaf59cf7e23c2a8bf07452e2ea3719cde68fe30adbbf1a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vu45CjIOiG4CKfa8J96NLGvT34nLfhWM%22%3B%7D
+aviatorpredict.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.aviatorpredict.com	TRUE	/	FALSE	1999999999	_subid	1imbr6r2h0ta
+.aviatorpredict.com	TRUE	/	FALSE	1999999999	fc748	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjoie1wic3RyZWFtc1wiOntcIjI2NlwiOjE2OTI4MTM3MDd9LFwiY2FtcGFpZ25zXCI6e1wiNjBcIjoxNjkyODEzNzA3fSxcInRpbWVcIjoxNjkyODEzNzA3fSJ9.-V2cbEtN_nM1tgc93PWGP4wZLjx1LZM6fsb8fL0TiPg
+
