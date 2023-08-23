@@ -1,0 +1,159 @@
+/* icon */
+.icon {
+    display: block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+/* navbar */
+.navbar {
+	padding: 12px;
+}
+.navbar-brand {
+	font: 900 28px/1 'Lato', sans-serif;
+	padding: 0;
+}
+@media (min-width: 768px) {
+	.navbar {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.navbar-brand {
+		font-size: 34px;
+	}
+}
+@media (min-width: 1200px) {
+	.navbar {
+		min-height: 75.2px;
+	}
+	.navbar-brand {
+		font-size: 34px;
+	}
+}
+
+/* languages */
+.languages {
+	position: relative;
+}
+.languages__toggle-btn {
+	padding: 0;
+	background-color: transparent;
+	display: block;
+	border: none;
+}
+.languages__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: -8px;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0px 1px 8px 0 rgb(0, 0, 0, .58);
+	padding: 8px;
+	border-radius: 5px;
+	min-width: 100%;
+	background-color: #fff;
+}
+.languages_open .languages__list {
+	display: block;
+}
+.languages__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.languages__link {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+.languages__flag {
+	display: block;
+	object-fit: cover;
+	border: solid 1px;
+	max-width: none;
+	width: 29px;
+	height: 20px;
+}
+
+/* step-media */
+.step-media {
+	max-width: 300px;
+	flex-shrink: 0;
+}
+
+/* aspect-ratio */
+.ratio {
+	position: relative;
+	width: 100%;
+}
+.ratio::before {
+	display: block;
+	padding-top: var(--bs-aspect-ratio);
+	content: "";
+}
+.ratio > * {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ratio-16x9 {
+	--bs-aspect-ratio: 56.25%;
+}
+
+/* download-btn */
+.download-btn {
+    background-color: #198754;
+    border-color: #198754;
+    color: #fff;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+    padding: .75rem 1.563rem;
+    border-radius: 5px;
+    font-size: 0.975rem;
+    transition: box-shadow .15s,background-color .15s;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+}
+.download-btn:hover {
+    color: #fff;
+    background-color: #157347;
+    text-decoration: none;
+}
+.download-btn > .icon {
+    font-size: 1rem;
+    margin-right: .438rem;
+}
+.download-btn__fsize {
+    margin-left: 0.313rem;
+}
+
+/* timer */
+.timer {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.timer:not(.timer_active) {
+  display: none;
+}
+
+/* utilities */
+.min-h-100 {
+	min-height: 100%;
+}
+.mt-6, .my-6 {
+	margin-top: 6rem !important;
+}
+.g-4,
+.gx-4 {
+	column-gap: 1.5rem;
+}
